@@ -3,10 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567DB602D981DBBD7E262427 /* Pods_BS_TASK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDEB1C1305F0B1FBFC381E7 /* Pods_BS_TASK.framework */; };
+		FA37891025502F9E008D2BF0 /* SinglelineVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37890F25502F9E008D2BF0 /* SinglelineVoiceViewController.swift */; };
+		FA37891A25515AE9008D2BF0 /* RippleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37891925515AE9008D2BF0 /* RippleLayer.swift */; };
+		FA56F9FB25493614006161F0 /* VoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56F9FA25493614006161F0 /* VoiceViewController.swift */; };
+		FA56FA0525494072006161F0 /* VoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA56FA0325494072006161F0 /* VoiceTableViewCell.swift */; };
+		FA56FA0625494072006161F0 /* VoiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA56FA0425494072006161F0 /* VoiceTableViewCell.xib */; };
+		FA6C12762564E84400E64E60 /* ButtonAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C12752564E84400E64E60 /* ButtonAnimationsViewController.swift */; };
+		FA6C128D2564FE5C00E64E60 /* LottieAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C128C2564FE5C00E64E60 /* LottieAnimationViewController.swift */; };
+		FA6C1292256526D700E64E60 /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = FA6C1291256526D600E64E60 /* heart.json */; };
+		FA7748282574A4FF002A2D13 /* answertoneforhousie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7748272574A4FF002A2D13 /* answertoneforhousie.mp3 */; };
+		FA77F8AD256CEFE000CEB8EA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77F8AC256CEFE000CEB8EA /* DashboardViewController.swift */; };
+		FA77F8B2256CF09200CEB8EA /* FirstContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77F8B1256CF09200CEB8EA /* FirstContainerViewController.swift */; };
+		FA77F8B7256CF0A600CEB8EA /* secoundContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77F8B6256CF0A600CEB8EA /* secoundContainerViewController.swift */; };
+		FA77F8BD256CF51100CEB8EA /* ContainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77F8BB256CF51100CEB8EA /* ContainerCollectionViewCell.swift */; };
+		FA77F8BE256CF51100CEB8EA /* ContainerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA77F8BC256CF51100CEB8EA /* ContainerCollectionViewCell.xib */; };
 		FA79DBB024DA76F300FD847D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DBAF24DA76F300FD847D /* AppDelegate.swift */; };
 		FA79DBB224DA76F300FD847D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DBB124DA76F300FD847D /* SceneDelegate.swift */; };
 		FA79DBB424DA76F300FD847D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DBB324DA76F300FD847D /* ViewController.swift */; };
@@ -15,6 +30,18 @@
 		FA79DBBC24DA76F800FD847D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA79DBBA24DA76F800FD847D /* LaunchScreen.storyboard */; };
 		FA79DBC724DA76F900FD847D /* BS_TASKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DBC624DA76F900FD847D /* BS_TASKTests.swift */; };
 		FA79DBD224DA76F900FD847D /* BS_TASKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DBD124DA76F900FD847D /* BS_TASKUITests.swift */; };
+		FA79DBE024DA7BE800FD847D /* QRCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DBDF24DA7BE800FD847D /* QRCodeVC.swift */; };
+		FA79DBE224DA80BA00FD847D /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79DBE124DA80BA00FD847D /* BaseVC.swift */; };
+		FA7BD9E32558FED100B2EFBA /* CustomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7BD9E22558FED100B2EFBA /* CustomUI.swift */; };
+		FA8C3C9F25B54D9900695695 /* FirstButtonBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C3C9E25B54D9900695695 /* FirstButtonBarViewController.swift */; };
+		FAD67A5125B70FA7001E2587 /* CustomTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD67A5025B70FA7001E2587 /* CustomTabViewController.swift */; };
+		FAE3962A25495A7E00B06B29 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3962925495A7E00B06B29 /* testViewController.swift */; };
+		FAE3964B2549917100B06B29 /* SpeechRecognitionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3964A2549917100B06B29 /* SpeechRecognitionUtility.swift */; };
+		FAE396502549976400B06B29 /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3964F2549976300B06B29 /* NetworkUtility.swift */; };
+		FAE39656254A7E9300B06B29 /* RecievedChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE39654254A7E9300B06B29 /* RecievedChatTableViewCell.swift */; };
+		FAE39657254A7E9300B06B29 /* RecievedChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE39655254A7E9300B06B29 /* RecievedChatTableViewCell.xib */; };
+		FAE3965D254A800D00B06B29 /* SendChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE3965B254A800D00B06B29 /* SendChatTableViewCell.swift */; };
+		FAE3965E254A800D00B06B29 /* SendChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE3965C254A800D00B06B29 /* SendChatTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +62,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DDEB1C1305F0B1FBFC381E7 /* Pods_BS_TASK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BS_TASK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32248EEF3C5352A1A862A794 /* Pods-BS TASK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BS TASK.release.xcconfig"; path = "Target Support Files/Pods-BS TASK/Pods-BS TASK.release.xcconfig"; sourceTree = "<group>"; };
+		7487263CE082F418E38D0A93 /* Pods-BS TASK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BS TASK.debug.xcconfig"; path = "Target Support Files/Pods-BS TASK/Pods-BS TASK.debug.xcconfig"; sourceTree = "<group>"; };
+		FA37890F25502F9E008D2BF0 /* SinglelineVoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglelineVoiceViewController.swift; sourceTree = "<group>"; };
+		FA37891925515AE9008D2BF0 /* RippleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleLayer.swift; sourceTree = "<group>"; };
+		FA56F9FA25493614006161F0 /* VoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceViewController.swift; sourceTree = "<group>"; };
+		FA56FA0325494072006161F0 /* VoiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceTableViewCell.swift; sourceTree = "<group>"; };
+		FA56FA0425494072006161F0 /* VoiceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoiceTableViewCell.xib; sourceTree = "<group>"; };
+		FA6C12752564E84400E64E60 /* ButtonAnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimationsViewController.swift; sourceTree = "<group>"; };
+		FA6C128C2564FE5C00E64E60 /* LottieAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationViewController.swift; sourceTree = "<group>"; };
+		FA6C1291256526D600E64E60 /* heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
+		FA7748272574A4FF002A2D13 /* answertoneforhousie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = answertoneforhousie.mp3; sourceTree = "<group>"; };
+		FA77F8AC256CEFE000CEB8EA /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		FA77F8B1256CF09200CEB8EA /* FirstContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstContainerViewController.swift; sourceTree = "<group>"; };
+		FA77F8B6256CF0A600CEB8EA /* secoundContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secoundContainerViewController.swift; sourceTree = "<group>"; };
+		FA77F8BB256CF51100CEB8EA /* ContainerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA77F8BC256CF51100CEB8EA /* ContainerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContainerCollectionViewCell.xib; sourceTree = "<group>"; };
 		FA79DBAC24DA76F300FD847D /* BS TASK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BS TASK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA79DBAF24DA76F300FD847D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA79DBB124DA76F300FD847D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +93,18 @@
 		FA79DBCD24DA76F900FD847D /* BS TASKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BS TASKUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA79DBD124DA76F900FD847D /* BS_TASKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BS_TASKUITests.swift; sourceTree = "<group>"; };
 		FA79DBD324DA76F900FD847D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA79DBDF24DA7BE800FD847D /* QRCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeVC.swift; sourceTree = "<group>"; };
+		FA79DBE124DA80BA00FD847D /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		FA7BD9E22558FED100B2EFBA /* CustomUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUI.swift; sourceTree = "<group>"; };
+		FA8C3C9E25B54D9900695695 /* FirstButtonBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstButtonBarViewController.swift; sourceTree = "<group>"; };
+		FAD67A5025B70FA7001E2587 /* CustomTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViewController.swift; sourceTree = "<group>"; };
+		FAE3962925495A7E00B06B29 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		FAE3964A2549917100B06B29 /* SpeechRecognitionUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionUtility.swift; sourceTree = "<group>"; };
+		FAE3964F2549976300B06B29 /* NetworkUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
+		FAE39654254A7E9300B06B29 /* RecievedChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecievedChatTableViewCell.swift; sourceTree = "<group>"; };
+		FAE39655254A7E9300B06B29 /* RecievedChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecievedChatTableViewCell.xib; sourceTree = "<group>"; };
+		FAE3965B254A800D00B06B29 /* SendChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendChatTableViewCell.swift; sourceTree = "<group>"; };
+		FAE3965C254A800D00B06B29 /* SendChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SendChatTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567DB602D981DBBD7E262427 /* Pods_BS_TASK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +133,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		128FC2EF6188EEED282D62F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7487263CE082F418E38D0A93 /* Pods-BS TASK.debug.xcconfig */,
+				32248EEF3C5352A1A862A794 /* Pods-BS TASK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13380EB0184DF8B106D33B4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DDEB1C1305F0B1FBFC381E7 /* Pods_BS_TASK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA56FA0225494056006161F0 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA56FA0325494072006161F0 /* VoiceTableViewCell.swift */,
+				FA56FA0425494072006161F0 /* VoiceTableViewCell.xib */,
+				FAE39654254A7E9300B06B29 /* RecievedChatTableViewCell.swift */,
+				FAE39655254A7E9300B06B29 /* RecievedChatTableViewCell.xib */,
+				FAE3965B254A800D00B06B29 /* SendChatTableViewCell.swift */,
+				FAE3965C254A800D00B06B29 /* SendChatTableViewCell.xib */,
+				FA77F8BB256CF51100CEB8EA /* ContainerCollectionViewCell.swift */,
+				FA77F8BC256CF51100CEB8EA /* ContainerCollectionViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		FA6C12742564E81F00E64E60 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAD67A4425B70E36001E2587 /* tabBar */,
+				FA77F8AB256CEF2C00CEB8EA /* containerView */,
+				FA6C12752564E84400E64E60 /* ButtonAnimationsViewController.swift */,
+				FA6C128C2564FE5C00E64E60 /* LottieAnimationViewController.swift */,
+				FA8C3C9E25B54D9900695695 /* FirstButtonBarViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		FA77F8AB256CEF2C00CEB8EA /* containerView */ = {
+			isa = PBXGroup;
+			children = (
+				FA77F8AC256CEFE000CEB8EA /* DashboardViewController.swift */,
+				FA77F8B1256CF09200CEB8EA /* FirstContainerViewController.swift */,
+				FA77F8B6256CF0A600CEB8EA /* secoundContainerViewController.swift */,
+			);
+			path = containerView;
+			sourceTree = "<group>";
+		};
 		FA79DBA324DA76F300FD847D = {
 			isa = PBXGroup;
 			children = (
 				FA79DBAE24DA76F300FD847D /* BS TASK */,
+				FA37891925515AE9008D2BF0 /* RippleLayer.swift */,
 				FA79DBC524DA76F900FD847D /* BS TASKTests */,
 				FA79DBD024DA76F900FD847D /* BS TASKUITests */,
 				FA79DBAD24DA76F300FD847D /* Products */,
+				128FC2EF6188EEED282D62F2 /* Pods */,
+				13380EB0184DF8B106D33B4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +213,9 @@
 		FA79DBAE24DA76F300FD847D /* BS TASK */ = {
 			isa = PBXGroup;
 			children = (
+				FA6C12742564E81F00E64E60 /* controller */,
+				FA7BD9DE2558FE9500B2EFBA /* common */,
+				FA56FA0225494056006161F0 /* cell */,
 				FA79DBAF24DA76F300FD847D /* AppDelegate.swift */,
 				FA79DBB124DA76F300FD847D /* SceneDelegate.swift */,
 				FA79DBB324DA76F300FD847D /* ViewController.swift */,
@@ -106,6 +223,15 @@
 				FA79DBB824DA76F800FD847D /* Assets.xcassets */,
 				FA79DBBA24DA76F800FD847D /* LaunchScreen.storyboard */,
 				FA79DBBD24DA76F800FD847D /* Info.plist */,
+				FA79DBDF24DA7BE800FD847D /* QRCodeVC.swift */,
+				FA79DBE124DA80BA00FD847D /* BaseVC.swift */,
+				FA56F9FA25493614006161F0 /* VoiceViewController.swift */,
+				FAE3964A2549917100B06B29 /* SpeechRecognitionUtility.swift */,
+				FAE3964F2549976300B06B29 /* NetworkUtility.swift */,
+				FAE3962925495A7E00B06B29 /* testViewController.swift */,
+				FA37890F25502F9E008D2BF0 /* SinglelineVoiceViewController.swift */,
+				FA7748272574A4FF002A2D13 /* answertoneforhousie.mp3 */,
+				FA6C1291256526D600E64E60 /* heart.json */,
 			);
 			path = "BS TASK";
 			sourceTree = "<group>";
@@ -128,6 +254,22 @@
 			path = "BS TASKUITests";
 			sourceTree = "<group>";
 		};
+		FA7BD9DE2558FE9500B2EFBA /* common */ = {
+			isa = PBXGroup;
+			children = (
+				FA7BD9E22558FED100B2EFBA /* CustomUI.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		FAD67A4425B70E36001E2587 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FAD67A5025B70FA7001E2587 /* CustomTabViewController.swift */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA79DBD624DA76F900FD847D /* Build configuration list for PBXNativeTarget "BS TASK" */;
 			buildPhases = (
+				1A78E06C443B8D69EF42B7F8 /* [CP] Check Pods Manifest.lock */,
 				FA79DBA824DA76F300FD847D /* Sources */,
 				FA79DBA924DA76F300FD847D /* Frameworks */,
 				FA79DBAA24DA76F300FD847D /* Resources */,
+				740CE3282E7A046F010714EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +376,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6C1292256526D700E64E60 /* heart.json in Resources */,
+				FA56FA0625494072006161F0 /* VoiceTableViewCell.xib in Resources */,
+				FA77F8BE256CF51100CEB8EA /* ContainerCollectionViewCell.xib in Resources */,
 				FA79DBBC24DA76F800FD847D /* LaunchScreen.storyboard in Resources */,
+				FA7748282574A4FF002A2D13 /* answertoneforhousie.mp3 in Resources */,
 				FA79DBB924DA76F800FD847D /* Assets.xcassets in Resources */,
+				FAE3965E254A800D00B06B29 /* SendChatTableViewCell.xib in Resources */,
 				FA79DBB724DA76F300FD847D /* Main.storyboard in Resources */,
+				FAE39657254A7E9300B06B29 /* RecievedChatTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +404,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A78E06C443B8D69EF42B7F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BS TASK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		740CE3282E7A046F010714EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BS TASK/Pods-BS TASK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BS TASK/Pods-BS TASK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BS TASK/Pods-BS TASK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA79DBA824DA76F300FD847D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA56FA0525494072006161F0 /* VoiceTableViewCell.swift in Sources */,
+				FA77F8AD256CEFE000CEB8EA /* DashboardViewController.swift in Sources */,
+				FA79DBE024DA7BE800FD847D /* QRCodeVC.swift in Sources */,
+				FA37891025502F9E008D2BF0 /* SinglelineVoiceViewController.swift in Sources */,
+				FAE3962A25495A7E00B06B29 /* testViewController.swift in Sources */,
+				FAE3964B2549917100B06B29 /* SpeechRecognitionUtility.swift in Sources */,
 				FA79DBB424DA76F300FD847D /* ViewController.swift in Sources */,
 				FA79DBB024DA76F300FD847D /* AppDelegate.swift in Sources */,
+				FA7BD9E32558FED100B2EFBA /* CustomUI.swift in Sources */,
+				FAE39656254A7E9300B06B29 /* RecievedChatTableViewCell.swift in Sources */,
+				FAD67A5125B70FA7001E2587 /* CustomTabViewController.swift in Sources */,
 				FA79DBB224DA76F300FD847D /* SceneDelegate.swift in Sources */,
+				FA79DBE224DA80BA00FD847D /* BaseVC.swift in Sources */,
+				FA56F9FB25493614006161F0 /* VoiceViewController.swift in Sources */,
+				FA77F8B2256CF09200CEB8EA /* FirstContainerViewController.swift in Sources */,
+				FA77F8B7256CF0A600CEB8EA /* secoundContainerViewController.swift in Sources */,
+				FA8C3C9F25B54D9900695695 /* FirstButtonBarViewController.swift in Sources */,
+				FA37891A25515AE9008D2BF0 /* RippleLayer.swift in Sources */,
+				FA6C12762564E84400E64E60 /* ButtonAnimationsViewController.swift in Sources */,
+				FA6C128D2564FE5C00E64E60 /* LottieAnimationViewController.swift in Sources */,
+				FAE396502549976400B06B29 /* NetworkUtility.swift in Sources */,
+				FA77F8BD256CF51100CEB8EA /* ContainerCollectionViewCell.swift in Sources */,
+				FAE3965D254A800D00B06B29 /* SendChatTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +644,11 @@
 		};
 		FA79DBD724DA76F900FD847D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7487263CE082F418E38D0A93 /* Pods-BS TASK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XZRHKVZG5;
 				INFOPLIST_FILE = "BS TASK/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +663,11 @@
 		};
 		FA79DBD824DA76F900FD847D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32248EEF3C5352A1A862A794 /* Pods-BS TASK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XZRHKVZG5;
 				INFOPLIST_FILE = "BS TASK/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

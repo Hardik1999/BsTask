@@ -1,0 +1,28 @@
+PODS:
+  - lottie-ios (3.1.9)
+  - Pulsator (0.6.0)
+  - STTabbar (0.1.0)
+  - TransitionButton (0.5.3)
+
+DEPENDENCIES:
+  - lottie-ios
+  - Pulsator
+  - STTabbar
+  - TransitionButton
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+    - Pulsator
+    - STTabbar
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
+  STTabbar: fe93da755010233b348b2d0147c43bb1bef290fa
+  TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
+
+PODFILE CHECKSUM: 8d3ce9bbba062d97dea6c46d31c082e43c6f9b65
+
+COCOAPODS: 1.9.1

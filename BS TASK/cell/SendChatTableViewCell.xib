@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="52" id="KGk-i7-Jjw" customClass="SendChatTableViewCell" customModule="BS_TASK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="490" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="490" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QPC-Gh-602">
+                        <rect key="frame" x="435" y="6" width="49" height="40"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qIq-GE-yYh">
+                                <rect key="frame" x="0.0" y="0.0" width="49" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LwN-40-Sez">
+                                <rect key="frame" x="8" y="8" width="33" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="280" id="7k2-TO-eh1"/>
+                            <constraint firstItem="LwN-40-Sez" firstAttribute="leading" secondItem="QPC-Gh-602" secondAttribute="leading" constant="8" id="8ea-st-cGR"/>
+                            <constraint firstAttribute="bottom" secondItem="qIq-GE-yYh" secondAttribute="bottom" id="JC0-St-cEZ"/>
+                            <constraint firstAttribute="trailing" secondItem="LwN-40-Sez" secondAttribute="trailing" constant="8" id="M8B-sV-5ed"/>
+                            <constraint firstItem="qIq-GE-yYh" firstAttribute="leading" secondItem="QPC-Gh-602" secondAttribute="leading" id="SE2-TF-FFw"/>
+                            <constraint firstItem="LwN-40-Sez" firstAttribute="top" secondItem="QPC-Gh-602" secondAttribute="top" constant="8" id="YMs-rY-2Cl"/>
+                            <constraint firstAttribute="bottom" secondItem="LwN-40-Sez" secondAttribute="bottom" constant="8" id="cmF-5a-gFF"/>
+                            <constraint firstItem="qIq-GE-yYh" firstAttribute="top" secondItem="QPC-Gh-602" secondAttribute="top" id="eaK-ao-RRg"/>
+                            <constraint firstAttribute="trailing" secondItem="qIq-GE-yYh" secondAttribute="trailing" id="fjP-C1-Zyf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="QPC-Gh-602" secondAttribute="trailing" constant="6" id="BBr-D4-PuL"/>
+                    <constraint firstItem="QPC-Gh-602" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="dlH-4E-KTm"/>
+                    <constraint firstAttribute="bottom" secondItem="QPC-Gh-602" secondAttribute="bottom" constant="6" id="hZE-TH-qlt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgBubbel" destination="qIq-GE-yYh" id="t54-fk-bpv"/>
+                <outlet property="lblSpeech" destination="LwN-40-Sez" id="owY-HT-9em"/>
+                <outlet property="viewMain" destination="QPC-Gh-602" id="MYE-ra-3Cx"/>
+            </connections>
+            <point key="canvasLocation" x="186.95652173913044" y="73.660714285714278"/>
+        </tableViewCell>
+    </objects>
+</document>
