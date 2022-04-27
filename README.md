@@ -1,1 +1,3 @@
 # BsTask
+
+Checkout branch Master
